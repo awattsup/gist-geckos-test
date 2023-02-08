@@ -9,7 +9,7 @@
 # Please note that configDir and templateDir are not applied automatically to user-defined parameters and/or
 # user-defined modules. inputDir and outputDir are applied to all active GIST modules. 
 #
-inputDir=inputData
-outputDir=results
-configDir=configFiles
-templateDir=spectralTemplates
+inputDir=tests/gistTutorial/inputData
+outputDir=tests/gistTutorial/results
+configDir=tests/gistTutorial/configFiles
+templateDir=tests/gistTutorial/spectralTemplates
