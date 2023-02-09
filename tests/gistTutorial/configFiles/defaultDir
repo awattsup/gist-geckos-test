@@ -10,6 +10,6 @@
 # user-defined modules. inputDir and outputDir are applied to all active GIST modules. 
 #
 inputDir=tests/gistTutorial/inputData
-outputDir=tests/gistTutorial/results
+outputDir=/home/runner/work/gist-geckos-test/gist-geckos-test
 configDir=tests/gistTutorial/configFiles
 templateDir=tests/gistTutorial/spectralTemplates
