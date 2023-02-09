@@ -14,7 +14,9 @@ assert os.path.isdir(output_dir), "Output dir not created"
 
 
 
+assert os.isfile(f"{output_dir}/CONFIG")
 
+assert os.isfile(f"{output_dir}/LOGFILE")
 
 
 
