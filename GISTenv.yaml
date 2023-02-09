@@ -1,0 +1,15 @@
+name: GISTenv
+channels:
+  - conda-forge
+  - default
+
+dependencies:
+  - python=3.8
+  - astropy
+  - numpy
+  - scipy
+  - matplotlib
+  - multiprocess
+  - pip
+  - pip:
+    - pyqt6
