@@ -1,6 +1,7 @@
 import os
 home_dir = os.path.expanduser('~')
 
+print(home_dir)
 output_dir = f"{home_dir}/runner/work/gist-geckos-test/gist-geckos-test/NGC0000Example"
 
 #Check the output directory is created 
