@@ -1,4 +1,4 @@
-name: Run example galaxy
+name: Run example galaxy MacOS
 
 on: [push]
 

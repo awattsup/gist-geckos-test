@@ -1,6 +1,7 @@
 import os
+home_dir = os.path.expanduser('~')
 
-output_dir = "/home/runner/work/gist-geckos-test/gist-geckos-test/NGC0000Example"
+output_dir = f"{home_dir}/runner/work/gist-geckos-test/gist-geckos-test/NGC0000Example"
 
 #Check the output directory is created 
 assert os.path.isdir(output_dir), "Output dir not created"
