@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Get working directory
-        run: pwd
+        # run: pwd
         run: echo $HOME
       - name: Install dependencies
         run: |
