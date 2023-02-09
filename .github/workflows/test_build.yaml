@@ -37,6 +37,5 @@ jobs:
           # flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Checking the pipline runs NGC 0000
         run: gistPipeline --config=tests/gistTutorial/configFiles/MasterConfig --default-dir=tests/gistTutorial/configFiles/defaultDir
-
       - name: Checking pipeline results
         run: python tests/check_outputs.py

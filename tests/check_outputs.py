@@ -1,6 +1,6 @@
 import os
 
-output_dir = "/home/runner/work/gist-geckos-test/gist-geckos-test/NGC0000"
+output_dir = "/home/runner/work/gist-geckos-test/gist-geckos-test/NGC0000Example"
 
 #Check the output directory is created 
 assert os.path.isdir(output_dir), "Output dir not created"
